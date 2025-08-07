@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "mentine_lib",
+	"version": "${version}",
+	"name": "Mentine Libraries",
+	"description": "Cross-Platform API. ",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mentine_lib/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"api.mentine.mlib.MentineLibraries"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
